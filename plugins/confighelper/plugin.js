@@ -73,7 +73,7 @@ function removePlaceholder(ev) {
 
 		root.removeClass( 'placeholder' );
 		// fill it properly
-		root.setHtml( (CKEDITOR.dtd[ root.getName() ]['p'] ? '<h2>&nbsp;</h2>' : ' ') );
+		root.setHtml( (CKEDITOR.dtd[ root.getName() ]['p'] ? '<p>&nbsp;</p>' : ' ') );
 	}
 	else
 	{

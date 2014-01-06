@@ -32,7 +32,7 @@ CKEDITOR.editorConfig = function( config ) {
     	config.removePlugins = 'about';
 
     	config.extraPlugins = 'format,confighelper';
-    	config.placeholder = 'Message';
+    	config.placeholder = '<h2>Message</h2>';
 
 	// Let's have it basic on dialogs as well.
 	config.removeDialogTabs = 'link:advanced';
